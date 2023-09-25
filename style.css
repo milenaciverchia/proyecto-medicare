@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Open+Sans:wght@300;400&display=swap');
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0px;;
+}
+/*header*/
+header{
+    font-size: 1.6rem;
+    background-color:rgb(255, 255, 255);
+    position: sticky;
+    top: 0;
+}
+
+.dropdown-menu{
+    font-size: 1.6rem;
+}
+.logo-nav{
+    width: 7vw;
+    min-width: 40px;
+}
+
+.container-fluid{
+    background-color: white;
+}
+
+/*inicio*/
+.imagen-inicio{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(images/familia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    color:white;
+    text-align: center;
+}
+
+.planes-familiares{
+    font-size: 7vw;
+    min-width: 100px;
+    padding-top: 250px;
+}
+
+.mas-informacion{
+    max-width: 20vw;
+    min-width: 70px;
+    padding-bottom: 30%;
+}
+
+.whatsapp2{
+    display: flex;
+    max-height: 4vw;
+    min-height: 50px;
+    position: absolute;
+    position: fixed;
+    left: 95%;
+    bottom: 1%;
+
+}
+/*Carrusel*/
+#carouselExampleIndicators{
+    padding: 3vw;
+}
+
+/*abajo del la foto de familia*/
+.fondoblanco1{
+    background-color: rgb(255, 255, 255);
+    max-height: 50px;
+}
+
+.fondogris1{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(230, 230, 230);
+    height: fit-content;
+    padding: 20px;
+    justify-content: last baseline;
+    color: rgb(77, 77, 77);
+}
+
+.imagen-mision{
+    display: flex;
+    max-height: 7vw;
+    min-height: 50px;
+    padding: 5px;
+}
+
+.imagen-vision{
+    display: flex;
+    max-height: 4.5vw;
+    min-height: 50px;
+    padding: 5px;
+}
+.imagen-valores{
+    display: flex;
+    max-height: 7vw;
+    min-height: 50px;
+    padding: 5px;
+}
+
+.fondoblanco2{
+    background-color: rgb(255, 255, 255);
+    height: 7vw;
+}
+
+/*contacto*/
+.row{
+    justify-content: center;
+
+}
+.mb-4{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*mapa*/
+.mapa{
+    background-color: rgb(60, 168, 174);
+    padding: 20px;
+    color: white;
+}
+
+
+/*footer*/
+
+.footer-1{
+    background-color: rgb(153, 204, 51);
+    padding-top: 5px;
+    color: white;
+}
+.footer-3{
+    background-color: white;
+}
+
+.instagram{
+    max-width: 30px;
+    padding: 2px;
+}
+.facebook{
+    max-width: 30px;
+    padding: 2px;
+}
+.youtube{
+    max-width: 30px;
+    padding: 2px;
+}
+.whatsapp{
+    max-width: 30px;
+    padding: 2px;
+}
+
+.footer-2{
+    display: flex;
+    text-align: center;
+}
+
+
+
+
